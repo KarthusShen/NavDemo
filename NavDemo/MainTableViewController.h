@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainTableViewController.h
 //  NavDemo
 //
 //  Created by Karthus on 2019/1/8.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface MainTableViewController : UITableViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

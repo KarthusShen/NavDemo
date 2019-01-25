@@ -7,25 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA1389DC21E4688B00855DE4 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1389DB21E4688B00855DE4 /* MainTableViewController.m */; };
+		AAB0B17A21F956DC004F485B /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB0B17821F956DC004F485B /* ChatViewController.m */; };
+		AAB0B17B21F956DC004F485B /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAB0B17921F956DC004F485B /* ChatViewController.xib */; };
 		AABC06D421E445A800A85E7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AABC06D321E445A800A85E7E /* AppDelegate.m */; };
-		AABC06D721E445A800A85E7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABC06D621E445A800A85E7E /* ViewController.m */; };
 		AABC06DA21E445A800A85E7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABC06D821E445A800A85E7E /* Main.storyboard */; };
 		AABC06DC21E445A900A85E7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AABC06DB21E445A900A85E7E /* Assets.xcassets */; };
 		AABC06DF21E445A900A85E7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABC06DD21E445A900A85E7E /* LaunchScreen.storyboard */; };
 		AABC06E221E445A900A85E7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AABC06E121E445A900A85E7E /* main.m */; };
+		AABE2C3721E592B500ECD9A0 /* NormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE2C3521E592B500ECD9A0 /* NormalViewController.m */; };
+		AABE2C3821E592B500ECD9A0 /* NormalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AABE2C3621E592B500ECD9A0 /* NormalViewController.xib */; };
+		AABE2C3C21E5CB8100ECD9A0 /* ChatViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE2C3A21E5CB8100ECD9A0 /* ChatViewController1.m */; };
+		AABE2C3D21E5CB8100ECD9A0 /* ChatViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = AABE2C3B21E5CB8100ECD9A0 /* ChatViewController1.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA1389DA21E4688B00855DE4 /* MainTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		AA1389DB21E4688B00855DE4 /* MainTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		AAB0B17721F956DC004F485B /* ChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		AAB0B17821F956DC004F485B /* ChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		AAB0B17921F956DC004F485B /* ChatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
 		AABC06CF21E445A800A85E7E /* NavDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AABC06D221E445A800A85E7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AABC06D321E445A800A85E7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AABC06D521E445A800A85E7E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AABC06D621E445A800A85E7E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AABC06D921E445A800A85E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AABC06DB21E445A900A85E7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AABC06DE21E445A900A85E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AABC06E021E445A900A85E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AABC06E121E445A900A85E7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AABE2C3421E592B500ECD9A0 /* NormalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalViewController.h; sourceTree = "<group>"; };
+		AABE2C3521E592B500ECD9A0 /* NormalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalViewController.m; sourceTree = "<group>"; };
+		AABE2C3621E592B500ECD9A0 /* NormalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NormalViewController.xib; sourceTree = "<group>"; };
+		AABE2C3921E5CB8100ECD9A0 /* ChatViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatViewController1.h; sourceTree = "<group>"; };
+		AABE2C3A21E5CB8100ECD9A0 /* ChatViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatViewController1.m; sourceTree = "<group>"; };
+		AABE2C3B21E5CB8100ECD9A0 /* ChatViewController1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatViewController1.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +54,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA1389DD21E478AA00855DE4 /* ChatView */ = {
+			isa = PBXGroup;
+			children = (
+				AABE2C3921E5CB8100ECD9A0 /* ChatViewController1.h */,
+				AABE2C3A21E5CB8100ECD9A0 /* ChatViewController1.m */,
+				AABE2C3B21E5CB8100ECD9A0 /* ChatViewController1.xib */,
+				AAB0B17721F956DC004F485B /* ChatViewController.h */,
+				AAB0B17821F956DC004F485B /* ChatViewController.m */,
+				AAB0B17921F956DC004F485B /* ChatViewController.xib */,
+			);
+			path = ChatView;
+			sourceTree = "<group>";
+		};
 		AABC06C621E445A800A85E7E = {
 			isa = PBXGroup;
 			children = (
@@ -58,17 +86,29 @@
 		AABC06D121E445A800A85E7E /* NavDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AABE2C3321E5929A00ECD9A0 /* NormalView */,
+				AA1389DD21E478AA00855DE4 /* ChatView */,
 				AABC06D221E445A800A85E7E /* AppDelegate.h */,
 				AABC06D321E445A800A85E7E /* AppDelegate.m */,
-				AABC06D521E445A800A85E7E /* ViewController.h */,
-				AABC06D621E445A800A85E7E /* ViewController.m */,
 				AABC06D821E445A800A85E7E /* Main.storyboard */,
 				AABC06DB21E445A900A85E7E /* Assets.xcassets */,
 				AABC06DD21E445A900A85E7E /* LaunchScreen.storyboard */,
 				AABC06E021E445A900A85E7E /* Info.plist */,
 				AABC06E121E445A900A85E7E /* main.m */,
+				AA1389DA21E4688B00855DE4 /* MainTableViewController.h */,
+				AA1389DB21E4688B00855DE4 /* MainTableViewController.m */,
 			);
 			path = NavDemo;
+			sourceTree = "<group>";
+		};
+		AABE2C3321E5929A00ECD9A0 /* NormalView */ = {
+			isa = PBXGroup;
+			children = (
+				AABE2C3421E592B500ECD9A0 /* NormalViewController.h */,
+				AABE2C3521E592B500ECD9A0 /* NormalViewController.m */,
+				AABE2C3621E592B500ECD9A0 /* NormalViewController.xib */,
+			);
+			path = NormalView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +170,9 @@
 			files = (
 				AABC06DF21E445A900A85E7E /* LaunchScreen.storyboard in Resources */,
 				AABC06DC21E445A900A85E7E /* Assets.xcassets in Resources */,
+				AAB0B17B21F956DC004F485B /* ChatViewController.xib in Resources */,
+				AABE2C3D21E5CB8100ECD9A0 /* ChatViewController1.xib in Resources */,
+				AABE2C3821E592B500ECD9A0 /* NormalViewController.xib in Resources */,
 				AABC06DA21E445A800A85E7E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,9 +184,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AABC06D721E445A800A85E7E /* ViewController.m in Sources */,
 				AABC06E221E445A900A85E7E /* main.m in Sources */,
 				AABC06D421E445A800A85E7E /* AppDelegate.m in Sources */,
+				AAB0B17A21F956DC004F485B /* ChatViewController.m in Sources */,
+				AABE2C3C21E5CB8100ECD9A0 /* ChatViewController1.m in Sources */,
+				AABE2C3721E592B500ECD9A0 /* NormalViewController.m in Sources */,
+				AA1389DC21E4688B00855DE4 /* MainTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +332,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9FTZ9764F4;
 				INFOPLIST_FILE = NavDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +350,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9FTZ9764F4;
 				INFOPLIST_FILE = NavDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
