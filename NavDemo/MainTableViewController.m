@@ -35,6 +35,13 @@
     self.navigationController.navigationBarHidden = NO;
     [self.navigationItem setHidesBackButton:NO];
     
+    UIBarButtonItem *backBarButton = [[UIBarButtonItem alloc] initWithTitle:@""
+                                                                      style:UIBarButtonItemStylePlain
+                                                                     target:nil
+                                                                     action:nil];
+    backBarButton.tintColor = [UIColor whiteColor];
+    self.navigationItem.backBarButtonItem = backBarButton;
+    
     
 //    self.navigationItem.backBarButtonItem.title = @" ";
 //    [self.navigationItem.backBarButtonItem setTintColor:[UIColor whiteColor]];
@@ -68,6 +75,12 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     if (indexPath.row == 0) {
+        UIBarButtonItem *backBarButton = [[UIBarButtonItem alloc] initWithTitle:@""
+                                                                          style:UIBarButtonItemStylePlain
+                                                                         target:nil
+                                                                         action:nil];
+        backBarButton.tintColor = [UIColor whiteColor];
+        self.navigationItem.backBarButtonItem = backBarButton;
         ChatViewController* vc = [[ChatViewController alloc] initWithNibName:NSStringFromClass([ChatViewController class]) bundle:nil];
         [self.navigationController pushViewController:vc animated:YES];
     }else if (indexPath.row == 1){
